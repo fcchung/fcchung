@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const About = () => {
     return (
         <Container>
-            <h1>About Me</h1>
+            <h1 style={{marginTop: "5vh"}}>About Me</h1>
             <p>
               I am currently in a Master’s program in Computer Science at
               Northeastern University. Prior to enrolling in this program, I
@@ -34,10 +34,12 @@ const About = () => {
 
             <h2>Education</h2>
             <h3>M.S. Computer Science - Northeastern University</h3>
-            <img id="neulogo" width = {300} src={require("../images/neuLogo.png")}/>
+            <img id="neulogo" width = {300} src={require("../images/neuLogo.png")} alt="Northeastern University Logo"/>
+            <h4>Courses</h4>
             <h3>B.S Finance and Marketing - Arizona State University</h3>
-            <img id="asulogo" width = {300}src={require("../images/asu-wpcarey-logo.png")}/>
-
+            <img id="asulogo" width = {300}src={require("../images/asu-wpcarey-logo.png")} alt="W.P. Carey school Business School Logo"/>
+            <h4>Courses</h4>
+            
 
 
 

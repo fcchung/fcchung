@@ -10,16 +10,15 @@ function App() {
 
   return (
     <div className="App">
-      <NavigationBar/>
+
       <main>
-        <Container>
+        <NavigationBar/>
           <Router>
             <Routes>
               <Route path="/" element={<Homepage/>} />
               <Route path="/about" element={<About/>} />
             </Routes>
           </Router>
-        </Container>
       </main>
 
     </div>
