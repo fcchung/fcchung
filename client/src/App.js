@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Container } from "react-bootstrap";
 import Homepage from "./pages/index";
 import About from './pages/about';
 import NavigationBar from './components/navBar';
